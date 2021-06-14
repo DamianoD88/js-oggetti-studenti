@@ -15,7 +15,25 @@ for (var key in studente) {
 
 
 // Creare un array di oggetti di studenti.
-var oggettiStudenti = []
+var oggettiStudenti = [
+    {
+        nome: "Maria",
+        cognome: "Gambino",
+        eta: "1200",
+    },
+    {
+        nome: "Grazia",
+        cognome: "Brambo",
+        eta: "1100",
+    },
+    {
+        nome: "Matteo",
+        cognome: "Marino",
+        eta: "1300",
+    }
+];
+
+
 // Ciclare su tutti gli studenti e stampare per ognuno di essi, nome e cognome.
 
 // Dare la possibilità all’utente, attraverso 3 prompt(), di aggiungere un nuovo oggetto studente inserendo nell’ordine: nome, cognome e età.
