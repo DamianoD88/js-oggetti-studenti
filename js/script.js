@@ -1,6 +1,6 @@
 // Creare un oggetto che descriva uno studente, con le seguenti proprietà: nome, cognome e età.
 
-var Studente = {
+var studente = {
     nome: "Paolo",
     cognome: "Paolino",
     eta: "1000"
@@ -9,13 +9,13 @@ var Studente = {
 
 // Stampare a schermo attraverso un ciclo for-in tutte le proprietà dell'oggetto.
 
-for (var key in Studente) {
-    console.log(studente[key]);
+for (var key in studente) {
+    console.log(studente[nome]);
 };
 
 
 // Creare un array di oggetti di studenti.
-
+var oggettiStudenti = []
 // Ciclare su tutti gli studenti e stampare per ognuno di essi, nome e cognome.
 
 // Dare la possibilità all’utente, attraverso 3 prompt(), di aggiungere un nuovo oggetto studente inserendo nell’ordine: nome, cognome e età.
