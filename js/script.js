@@ -4,14 +4,14 @@ var studente = {
     nome: "Paolo",
     cognome: "Paolino",
     eta: "1000"
-};
+}
 
 
 // Stampare a schermo attraverso un ciclo for-in tutte le proprietà dell'oggetto.
 
 for (var key in studente) {
-    console.log(studente[nome]);
-};
+    console.log(studente[key]);
+}
 
 
 // Creare un array di oggetti di studenti.
